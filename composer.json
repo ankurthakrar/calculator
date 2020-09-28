@@ -11,7 +11,6 @@
     ],
     "minimum-stability": "dev",
     "require": {
-        "fideloper/proxy": "dev-master"
     },
     "extra": {
         "laravel": {
