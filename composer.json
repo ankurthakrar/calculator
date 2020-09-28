@@ -1,7 +1,7 @@
 {
     "name": "ankurthakrar/calculator",
     "description": "Use for calc",
-    "type": "project",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {
