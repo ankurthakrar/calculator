@@ -1,0 +1,23 @@
+{
+    "name": "ankurthakrar/calculator",
+    "description": "Use for calc",
+    "type": "project",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ankur thakrar",
+            "email": "ankurthakrar404@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "fideloper/proxy": "dev-master"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ankurthakrar\\Calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
