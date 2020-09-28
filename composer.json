@@ -1,0 +1,29 @@
+{
+    "name": "ankurthakrar/calculator",
+    "description": "Use for calc",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "ankur thakrar",
+            "email": "ankurthakrar404@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        
+    },
+
+    "autoload": {
+        "psr-4": {
+            "ankurthakrar\\calculator\\": "packages/ankurthakrar/calculator/src"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "ankurthakrar\\calculator\\CalculatorServiceProvider"
+            ]
+        }
+    }
+}
